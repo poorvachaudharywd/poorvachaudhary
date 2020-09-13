@@ -1,0 +1,57 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.imggal{
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4,150px);
+    grid-gap: 14px;
+    grid-template-areas: 
+    'nyc dress lake forest'
+    'music bedroom lake forest'
+    'neutral bedroom chic sea'
+    'neutral rustic lines lines';
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.img1{
+    grid-area: chic;
+}
+.img2{
+    grid-area: dress;
+}
+.img3{
+    grid-area: forest;
+}
+.img4{
+    grid-area: lake;
+}
+.img5{
+    grid-area: lines;
+}
+.img6{
+    grid-area: music;
+}
+.img7{
+    grid-area: neutral;
+}
+.img8{
+    grid-area: nyc;
+}
+.img9{
+    grid-area: rustic;
+}
+.img10{
+    grid-area: sea;
+}
+.img11{
+    grid-area: bedroom;
+}
